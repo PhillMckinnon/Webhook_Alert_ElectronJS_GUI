@@ -21,7 +21,6 @@ The app was developed during my practical workshop experience ( 07/04/2025 - 30/
 - Node.js installed on your system.
 - NPM (Node Package Manager) installed.
 
----
 
 ## General Setup Instructions
 
