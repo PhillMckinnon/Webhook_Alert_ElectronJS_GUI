@@ -1,9 +1,10 @@
 ﻿# Webhook_Alert_ElectronJS_GUI
 ![Electron.js](https://img.shields.io/badge/Electron-2C2E3A?style=for-the-badge&logo=electron&logoColor=9FEAF9) ![ExpressJS](https://camo.githubusercontent.com/9789aea7953b74289df6760a71e717321e750032579075e89744c592f46461aa/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f457870726573732e6a732d3030303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d65787072657373266c6f676f436f6c6f723d7768697465) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white) ![Node.js](https://camo.githubusercontent.com/5efede1ede485921a068d065e72eae3446b1d4f9c8aba580ab290b060e1d436a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6f64652e6a732d3333393933333f7374796c653d666f722d7468652d6261646765266c6f676f3d6e6f64652e6a73266c6f676f436f6c6f723d7768697465) ![SQLite3](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white) 
 
-
 This project is a fork of (https://github.com/PhillMckinnon/Play-sound-on-webhook-alert) 
-This is an application that listens for incoming webhook requests and plays a corresponding `.wav` sound file when a webhook is received, but with a GUI and packed into a ElectronJS app. It is designed to be a simple and customizable alert system that can be integrated and used with various services (e.g ![Uptime Kuma](https://github.com/louislam/uptime-kuma)).
+---
+
+An application that listens for incoming webhook requests and plays a corresponding `.wav` sound file when a webhook is received, but with a GUI and packed into ElectronJS. Designed to be a simple and customisable alert system that can be integrated and used with various services (e.g ![Uptime Kuma](https://github.com/louislam/uptime-kuma)).
 ![forgit](https://github.com/user-attachments/assets/fab7c8e9-012f-4996-82fc-04f7dc7fe097)
 
 The app was developed during my practical workshop experience ( 07/04/2025 - 30/04/2025 )
@@ -48,7 +49,7 @@ The application will start listening on port `3000`. You can change it by editin
 
 ---
 
-## Build Setup
+## Building
 
 ### 1. Clone the Repository
 Clone this repository to your local machine:
