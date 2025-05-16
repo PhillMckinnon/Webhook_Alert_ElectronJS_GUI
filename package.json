@@ -1,0 +1,59 @@
+{
+  "name": "webhooking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --linux --x64",
+    "rebuild": "electron-rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "jquery": "^3.7.1",
+    "jsdom": "^26.1.0",
+    "node-wav-player": "1.0.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12",
+    "electron-rebuild": "^3.2.9",
+    "electron-winstaller": "^5.4.0",
+    "node-gyp": "^11.2.0"
+  },
+  "build": {
+    "appId": "com.webhooking.app",
+    "productName": "Webhook Sound Alert",
+    "asarUnpack": ["sounds"],
+    "extraFiles": [
+      {
+        "from": "sounds",
+        "to": "sounds"
+      }
+    ],
+    "files": [
+      "**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "icon.ico"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "icon": "icon.png",
+      "maintainer": "",
+      "category": "Utility"
+    }
+  }
+}

@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(239, 233, 240);
+}
+.inputs
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3em;
+  box-sizing: border-box;
+}
+.logbtns
+{
+  margin-top: -2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.logtexts
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.logtextbox
+{
+  background-color: #000000;
+  border: 1px solid #ccc;
+  color: aliceblue;
+  font-weight: 700;
+  max-width: 1600px;
+  min-width: 800px;
+  max-height: 600px;
+  min-height: 300px;
+  display: none;
+}
+.log-btn
+{
+border: 1px solid #ccc;
+background-color: #000d31;
+height: 3em;
+font-size: 13px;
+width: 6.2.em;
+color: #ffffff;
+text-align: center;
+border-radius: 6px;
+cursor: pointer;
+text-transform: uppercase;
+font-weight: 999;
+transition: all 0.3s ease;
+}
+.log-btn:hover
+{
+  transform: scale(1.1);
+}
+
+
+.whitelist-textarea{
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  min-width: 20em;
+  max-width: 60em;
+  min-height: 1em;
+  max-height: 6em;
+  transition: all 0.3s ease;
+  padding: 6px;
+  resize: both;
+}
+.whitelist-textarea:hover{
+  transform: scale(1.1);
+}
+.labeled{
+  display: flex;
+  flex: wrap;
+  justify-content: center;
+  margin-bottom: 0.2em;
+  box-sizing: border-box;
+  
+}
+.whitelabeled
+{
+  font-size: 0.68em;
+  font-weight: 900;
+  color: #a1a1a1;
+  transition: all 0.4s ease-in;
+}
+.whitelabeled:hover
+{
+  font-size: 0.8em;
+  font-weight: 900;
+  color: #000000;
+}
+
+.mywebhooks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.webhook {
+  flex: 1 1 250px;
+  max-width: 300px;
+  min-width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+}
+
+.webhook:hover {
+  transform: scale(1.05);
+}
+
+.webhook h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.webhook hr {
+  height: 4px;
+  border: none;
+  margin: 10px 0;
+}
+
+.webhook .summary {
+  display: block;
+  margin-top: 1em;
+  font-size: 0.5em;
+  color: gray;
+}
+.summary:hover {
+  color: rgb(34, 38, 97);
+}
+
+.mywebhooks button {
+  margin-top: 20px;
+  height: 45px;
+  width: 95px;
+  color: white;
+  font-weight: 700;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+}
+
+.zero hr, .zero button {
+  background-color: rgb(243, 72, 41);
+  border-color: rgb(243, 72, 41);
+}
+
+.one hr, .one button {
+  background-color: orange;
+  border-color: orange;
+}
+
+.two hr, .two button {
+  background-color: rgb(175, 157, 255);
+  border-color: rgb(175, 157, 255);
+}
+
+.three hr, .three button {
+  background-color: rgb(66, 212, 79);
+  border-color: rgb(66, 212, 79);
+}
+.four hr, .four button {
+  background-color: rgb(66, 100, 212);
+  border-color: rgb(66, 100, 212);
+}
+
+
+@media (max-width: 600px) {
+  .webhook {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

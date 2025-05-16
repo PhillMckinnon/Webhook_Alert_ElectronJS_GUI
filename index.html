@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webhook_Alerts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mywebhooks">
+  <div class="webhook zero">
+    <h3 id="webhookzero">🔄Loading🔄</h3>
+    <hr>
+    <h2 id="webhookzero-url">
+      <strong>🔄Loading🔄</strong>
+      <span class="summary">🔄Loading🔄</span>
+    </h2>
+    <p id="webhookzero-upcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookzero-downcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookzero-timeup">
+      <strong>⌛Time since last Up alert: <span id="wb0upalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhookzero-timedown">
+      <strong>⌛Time since last Down alert: <span id="wb0dwnalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhookzero-success"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookzero-error"><strong>🔄Loading🔄</strong></p>
+    <button id="webhookzero-btn">🔄Loading🔄</button>
+  </div>
+  
+  <div class="webhook one">
+    <h3 id="webhookone">🔄Loading🔄</h3>
+    <hr>
+    <h2 id="webhookone-url">
+      <strong>🔄Loading🔄</strong>
+      <span class="summary">🔄Loading🔄</span>
+    </h2>
+    <p id="webhookone-upcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookone-downcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookone-timeup">
+      <strong>⌛Time since last Up alert: <span id="wb1upalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhookone-timedown">
+      <strong>⌛Time since last Down alert: <span id="wb1dwnalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhookone-success"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookone-error"><strong>🔄Loading🔄</strong></p>
+    <button id="webhookone-btn">🔄Loading🔄</button>
+  </div>
+  
+  <div class="webhook two">
+    <h3 id="webhooktwo">🔄Loading🔄</h3>
+    <hr>
+    <h2 id="webhooktwo-url">
+      <strong>🔄Loading🔄</strong>
+      <span class="summary">🔄Loading🔄</span>
+    </h2>
+    <p id="webhooktwo-upcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhooktwo-downcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhooktwo-timeup">
+      <strong>⌛Time since last Up alert: <span id="wb2upalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhooktwo-timedown">
+      <strong>⌛Time since last Down alert: <span id="wb2dwnalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhooktwo-success"><strong>🔄Loading🔄</strong></p>
+    <p id="webhooktwo-error"><strong>🔄Loading🔄</strong></p>
+    <button id="webhooktwo-btn">🔄Loading🔄</button>
+  </div>
+  
+  <div class="webhook three">
+    <h3 id="webhookthree">🔄Loading🔄</h3>
+    <hr>
+    <h2 id="webhookthree-url">
+      <strong>Active</strong>
+      <span class="summary">🔄Loading🔄</span>
+    </h2>
+    <p id="webhookthree-upcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookthree-downcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookthree-timeup">
+      <strong>⌛Time since last Up alert: <span id="wb3upalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhookthree-timedown">
+      <strong>⌛Time since last Down alert: <span id="wb3dwnalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhookthree-success" class="clickable-sound"><strong>🔄Loading🔄</strong></p>
+    <input type="file" id="success-file-input" accept=".wav" style="display: none;" />
+    <p id="webhookthree-error"><strong>🔄Loading🔄</strong></p>
+    <button id="webhookthree-btn">🔄Loading🔄</button>
+  </div>
+  
+  <div class="webhook four">
+    <h3 id="webhookfour">Webhook4</h3>
+    <hr>
+    <h2 id="webhookfour-url">
+      <strong>Active</strong>
+      <span class="summary">🔄Loading🔄</span>
+    </h2>
+    <p id="webhookfour-upcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookfour-downcnt"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookfour-timeup">
+      <strong>⌛Time since last Up alert: <span id="wb4upalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhookfour-timedown">
+      <strong>⌛Time since last Down alert: <span id="wb4dwnalt">🔄Loading🔄</span></strong>
+    </p>
+    <p id="webhookfour-success"><strong>🔄Loading🔄</strong></p>
+    <p id="webhookfour-error"><strong>🔄Loading🔄</strong></p>
+    <button id="webhookfour-btn">🔄Loading🔄</button>
+  </div>
+</div>
+<div class="labeled">
+  <label class="whitelabeled" for="whitelist">Whitelisted IPs e.g 192.168.66.1, 192.168.66.2</label>
+</div>
+<div class="inputs">
+  <textarea id="whitelist" class="whitelist-textarea"rows="1"  placeholder="Whitelisted IPs" type="text"> </textarea>
+</div>
+<div class="logbtns">
+  <button id="log-btn" class="log-btn">Show Log</button>
+</div>
+<div id="logbox" class="logtexts">
+<textarea id="logtext" class="logtextbox" placeholder="Click Show Log to see logs..."></textarea>
+</div>
+<script src="JQ/jquery-3.7.1.min.js"></script>
+<script src="./index.js"></script>
+
+
+</body>
+
+</html>
